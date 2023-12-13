@@ -16,4 +16,4 @@ class RegisterView(View):
 
 class AddDonationView(View):
     def get(self,request):
-        return render(request, )
+        return render(request, "form.html")
